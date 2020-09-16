@@ -16,7 +16,7 @@ An example of a positive headline would be "With the new production plant the co
 While an example of a negative headline would be "The international electronic industry company Elcoteq has laid off tens of employees from its Tallinn facility ; contrary to earlier layoffs the company contracted the ranks of its office workers , the daily Postimees reported."
 
 
-It's an interesting challenge that requires quite a bit of data manipulation to get the dataset to feed into a neural network.  By the end of this project, I hope to have a neural network that can not only correctly classify examples from the test set, but also work on a stream of new headlines streamed in from other sources.
+It's an interesting challenge that requires quite a bit of data manipulation to get the dataset to feed into a neural network.  By the end of this project, I hope to have a neural network that can not only correctly classify examples from the test set, but also work on a stream of new headlines streamed in from other sources.  
 
 ## Text Cleaning and Exploration:
 
@@ -39,7 +39,7 @@ While it may not be at all obvious that this is bad news, that's where the beaut
 ## Neural Network Model:
 
 Work in progress
-
+![Imgur](https://i.imgur.com/nSQC28g.gifv)
 
 ## Further Work To Do:
 
