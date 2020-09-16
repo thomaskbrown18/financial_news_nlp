@@ -39,7 +39,6 @@ While it may not be at all obvious that this is bad news, that's where the beaut
 ## Neural Network Model:
 
 Work in progress
-![Imgur](https://i.imgur.com/nSQC28g.gifv)
 
 ## Further Work To Do:
 
