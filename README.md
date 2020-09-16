@@ -37,8 +37,13 @@ While exploring the data, I created a wordcloud of the most common words in the 
 While it may not be at all obvious that this is bad news, that's where the beauty of machine learning comes in.  It's possible for the algorithm to pick up on seemingly harmless words or patterns that may show up more often in negative headlines.
 
 ## Neural Network Model:
+For my neural network model, I chose to use an embedding layer as my first layer in order to generate word embeddings.  This is a common approach to NLP problems as it groups similar words together.  Another advantage to this is that I was able to use the TensorFlow projector to display the embeddings my model created in three dimensional space.
 
-Work in progress
+Here is a projection of the word embeddings my model created from the training headlines:  
+
+![gif_to_show](https://github.com/thomaskbrown18/financial_news_nlp/blob/master/gifs/embed_gif_ii.gif)
+
+As you can see, there is some overlap, but there are two very distinct groups of words!  One set is most commonly associated with positive headlines, while the other is associated with negative headlines.  Neutral headlines will have a healthy mix from both blobs.
 
 ## Further Work To Do:
 
