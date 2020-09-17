@@ -58,12 +58,13 @@ At the end of the day, I ended up with roughly 80% accuracy.  Not tremendous, bu
 Here is a plot that shows the models training accuracy, training loss, validation accuracy, and validation loss plotted over epochs or training cycles:
 
 ![Imgur](https://i.imgur.com/9M3JMz9.png)
+![Imgur](https://i.imgur.com/2pFhn7d.png)
 
 As you can see, validation accuracy never quite catches up to training accuracy, but using early stopping (automatically pausing the learning once validation loss stopped improving) prevented validation loss from getting much higher.  In earlier models before using early stopping, validation loss skyrocketed off the charts.
 
 As a sanity check, I also tested the model on a set of very simple made up headlines.  Here are the results.  As a reminder, 1 is positive, 0 is negative, and .5 is neutral.  If you're wondering why the headlines look funny, it's because I already completed a simple form of lemmatization on them already.
 
-![Imgur](https://i.imgur.com/NACF92L.png)
+![Imgur](https://i.imgur.com/ovLxUjd.png)
 
 
 ## Further Work To Do:
