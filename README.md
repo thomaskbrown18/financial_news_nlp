@@ -30,7 +30,7 @@ This changed the headlines from looking like this. . .
 ![Imgur](https://i.imgur.com/nuLcp34.png)
 . . . to looking like this:<br>
 ![Imgur](https://i.imgur.com/CyS96as.png)
-Lastly, I used a process called lemmatization to further break down the words into simpler forms.  Lemmatization will change a word like 'Running' into 'run'.  This simplification of the words makes it possible for the neural network later on to treat 'Running', 'run', 'ran', and 'runs' exactly the same, for example.  You lose some nuance in the sentance as you'll soon see, but it makes it much easier for the model to learn in the end.  Here are some headlines after lemmatization:<br>
+Lastly, I used a process called lemmatization to further break down the words into simpler forms.  Lemmatization will change a word like 'Running' into 'run'.  This simplification of the words makes it possible for the neural network later on to treat 'Running', 'run', 'ran', and 'runs' exactly the same, for example.  You lose some nuance in the sentence as you'll soon see, but it makes it much easier for the model to learn in the end.  Here are some headlines after lemmatization:<br>
 ![Imgur](https://i.imgur.com/6LZ8qtv.png)
 
 
@@ -70,11 +70,10 @@ As a sanity check, I also tested the model on a set of very simple made up headl
 ## Further Work To Do:
 
 There's still a lot we can do with this modeling.  In the future, I'd like to complete the following analysis:
-- A web application that collects and analyzes headlines from various financial news sources.
-- Other neural network architecture types.
-- New types of sentiment analysis, such as breaking news vs an opinion piece on an older issue.
-- Rate different newspapers by sentiment value.
-
+- A web application that collects and analyzes headlines from various financial news sources.  It would be great to have a website where individuals or firms could keep track of products, companies, or industries they're interested in keeping track of.
+- Other neural network architecture types.  I think there's more work to do on LSTM models, GRU models, or other neural network architecture types.
+- New types of sentiment analysis, such as breaking news vs an opinion piece on an older issue.  There are more ways of breaking down texts aside from positive vs negative.  It would be interesting to break down some of these divisions.  
+- Rate different newspapers by sentiment value.  I think it would also be fun to see which newspapers have the most positive tone!  A more accurate model, more labeled data, and more training could make this very doable.
 
 # Conclusion:
 
