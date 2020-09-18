@@ -2,7 +2,7 @@
 
 ## NLP Using Neural Networks and Other Machine Learning Techniques
 
-The purpose of this project is to build a neural network model that can determine the sentiment of financial news headlines.  The users of this model would be investment firms who want to keep track of the market sentiment of a set of various products, companies, industries, or even countries.
+The purpose of this project is to build an artificial neural network model that can determine the sentiment of financial news headlines.  The users of this model would be investment firms who want to keep track of the market sentiment of a set of various products, companies, industries, or even countries.
 With proper web scraping and feeding of new headlines, a firm would be able to keep track of various topics to make better informed investing decisions.  For example, one could feasibly keep track of terms that are rising rapidly in terms of positive sentiment in order to invest in them before the rest of the market can catch up.
 
 The data is collected from Kaggle through this [link](https://www.kaggle.com/ankurzing/sentiment-analysis-for-financial-news).  It's a collection of 4,837 unique news headlines from various financial news sources. The headlines are split into three categories:
